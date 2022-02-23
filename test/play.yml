@@ -1,0 +1,8 @@
+---
+- name: Update web servers
+  hosts: all
+  tasks:
+   - name: just testing
+     debug:
+       msg: "echo 'this is a nice text'"
+
